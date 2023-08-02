@@ -1,0 +1,299 @@
+2023-03-31 19:15:22,725 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.TattoMaster_Data.AddUpdateTattoMaster_Data(TattoMaster_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\TattoMaster_Data.cs:line 64
+2023-03-31 19:15:22,786 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function CreateUpdate_TattoMaster has too many arguments specified.
+2023-03-31 19:19:18,254 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.TattoMaster_Data.AddUpdateTattoMaster_Data(TattoMaster_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\TattoMaster_Data.cs:line 64
+2023-03-31 19:19:18,282 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function CreateUpdate_TattoMaster has too many arguments specified.
+2023-03-31 19:21:14,529 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.TattoMaster_Data.AddUpdateTattoMaster_Data(TattoMaster_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\TattoMaster_Data.cs:line 64
+2023-03-31 19:21:14,530 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function CreateUpdate_TattoMaster has too many arguments specified.
+2023-03-31 19:23:35,731 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at TattoAPI.Repository.Project.TattoMaster_Data.<>c.<Get_TattoMasterDetailsDTO>b__12_0(DataRow item) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\TattoMaster_Data.cs:line 118
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TattoAPI.Repository.Project.TattoMaster_Data.Get_TattoMasterDetailsDTO(TattoMaster_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\TattoMaster_Data.cs:line 116
+2023-03-31 19:23:35,731 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Column 'User_Name' does not belong to table Table.
+2023-03-31 19:25:09,757 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] -    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at TattoAPI.Repository.Project.TattoMaster_Data.<>c.<Get_TattoMasterDetailsDTO>b__12_0(DataRow item)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TattoAPI.Repository.Project.TattoMaster_Data.Get_TattoMasterDetailsDTO(TattoMaster_DTO model)
+2023-03-31 19:25:09,757 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] - Column 'User_Name' does not belong to table Table.
+2023-03-31 19:25:27,885 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] -    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at TattoAPI.Repository.Project.TattoMaster_Data.<>c.<Get_TattoMasterDetailsDTO>b__12_0(DataRow item)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TattoAPI.Repository.Project.TattoMaster_Data.Get_TattoMasterDetailsDTO(TattoMaster_DTO model)
+2023-03-31 19:25:27,885 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] - Column 'TM_Tatto_Image' does not belong to table Table.
+2023-03-31 19:27:26,348 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] -    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at TattoAPI.Repository.Project.TattoMaster_Data.<>c.<Get_TattoMasterDetailsDTO>b__12_0(DataRow item)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TattoAPI.Repository.Project.TattoMaster_Data.Get_TattoMasterDetailsDTO(TattoMaster_DTO model)
+2023-03-31 19:27:26,394 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] - Column 'TM_Tatto_Image' does not belong to table Table.
+2023-03-31 19:31:21,453 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.TattoMaster_Data.AddUpdateTattoMaster_Data(TattoMaster_DTO model)
+2023-03-31 19:31:21,455 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] - Procedure or function CreateUpdate_TattoMaster has too many arguments specified.
+2023-03-31 19:33:09,962 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.TattoMaster_Data.AddUpdateTattoMaster_Data(TattoMaster_DTO model)
+2023-03-31 19:33:09,962 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] - Procedure or function CreateUpdate_TattoMaster has too many arguments specified.
+2023-03-31 19:33:33,804 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.TattoMaster_Data.AddUpdateTattoMaster_Data(TattoMaster_DTO model)
+2023-03-31 19:33:33,805 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] - Procedure or function CreateUpdate_TattoMaster has too many arguments specified.
+2023-03-31 19:36:17,270 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.TattoMaster_Data.AddUpdateTattoMaster_Data(TattoMaster_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\TattoMaster_Data.cs:line 64
+2023-03-31 19:36:17,294 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function CreateUpdate_TattoMaster has too many arguments specified.
+2023-04-01 09:38:09,367 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.Tatto_Image_Data.AddUpdateTattoImage_Data(Tatto_Image_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_Image_Data.cs:line 65
+2023-04-01 09:38:09,424 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function 'CreateUpdate_TattoImage' expects parameter '@TI_CM_PKeyID', which was not supplied.
+2023-04-01 09:40:27,414 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.Tatto_Image_Data.AddUpdateTattoImage_Data(Tatto_Image_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_Image_Data.cs:line 65
+2023-04-01 09:40:27,415 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function 'CreateUpdate_TattoImage' expects parameter '@TI_CM_PKeyID', which was not supplied.
+2023-04-01 09:47:04,734 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.Tatto_Image_Data.AddUpdateTattoImage_Data(Tatto_Image_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_Image_Data.cs:line 65
+2023-04-01 09:47:04,768 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function 'CreateUpdate_TattoImage' expects parameter '@TI_CM_PKeyID', which was not supplied.
+2023-04-01 09:48:33,038 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.Tatto_Image_Data.AddUpdateTattoImage_Data(Tatto_Image_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_Image_Data.cs:line 65
+2023-04-01 09:48:33,052 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function 'CreateUpdate_TattoImage' expects parameter '@TI_CM_PKeyID', which was not supplied.
+2023-04-01 09:51:02,240 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.Tatto_Image_Data.AddUpdateTattoImage_Data(Tatto_Image_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_Image_Data.cs:line 65
+2023-04-01 09:51:02,275 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function 'CreateUpdate_TattoImage' expects parameter '@TI_CM_PKeyID', which was not supplied.
+2023-04-01 09:54:00,132 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.Tatto_Image_Data.AddUpdateTattoImage_Data(Tatto_Image_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_Image_Data.cs:line 65
+2023-04-01 09:54:00,159 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function 'CreateUpdate_TattoImage' expects parameter '@TI_CM_PKeyID', which was not supplied.
+2023-04-01 10:08:11,796 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.Tatto_CLient_Master_Data.AddUpdateTattoClientMaster_Data(Tatto_Client_Master_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_CLient_Master_Data.cs:line 60
+2023-04-01 10:08:11,820 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function 'CreateUpdate_TattoClientMaster' expects parameter '@TCM_IsActive', which was not supplied.
+2023-04-01 10:11:17,130 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.Tatto_CLient_Master_Data.AddUpdateTattoClientMaster_Data(Tatto_Client_Master_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_CLient_Master_Data.cs:line 60
+2023-04-01 10:11:17,163 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function 'CreateUpdate_TattoClientMaster' expects parameter '@TCM_Status', which was not supplied.
+2023-04-01 10:11:35,683 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at TattoAPI.Repository.Project.Tatto_CLient_Master_Data.AddUpdateTattoClientMaster_Data(Tatto_Client_Master_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_CLient_Master_Data.cs:line 60
+2023-04-01 10:11:35,860 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function 'CreateUpdate_TattoClientMaster' expects parameter '@TCM_Status', which was not supplied.
+2023-04-01 10:12:23,256 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at TattoAPI.Repository.Project.Tatto_CLient_Master_Data.Get_TattoClientMaster(Tatto_Client_Master_DTO tattoMaster) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_CLient_Master_Data.cs:line 91
+   at TattoAPI.Repository.Project.Tatto_CLient_Master_Data.Get_TattoClientMasterDetailsDTO(Tatto_Client_Master_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_CLient_Master_Data.cs:line 109
+2023-04-01 10:12:23,256 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Could not find stored procedure 'Get_TattoClientMaster'.
+2023-04-01 10:15:47,394 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at TattoAPI.Repository.Project.Tatto_CLient_Master_Data.Get_TattoClientMaster(Tatto_Client_Master_DTO tattoMaster) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_CLient_Master_Data.cs:line 91
+   at TattoAPI.Repository.Project.Tatto_CLient_Master_Data.Get_TattoClientMasterDetailsDTO(Tatto_Client_Master_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_CLient_Master_Data.cs:line 109
+2023-04-01 10:15:47,423 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Could not find stored procedure 'Get_TattoClient_Master'.
+2023-04-01 13:04:09,243 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at TattoAPI.Repository.Project.TattoMaster_Data.<>c.<Get_TattoMasterDetailsDTO>b__13_0(DataRow item) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\TattoMaster_Data.cs:line 154
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TattoAPI.Repository.Project.TattoMaster_Data.Get_TattoMasterDetailsDTO(TattoMaster_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\TattoMaster_Data.cs:line 152
+2023-04-01 13:04:09,284 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Cannot cast DBNull. Value to type 'System.Int64'. Please use a nullable type.
+2023-04-01 13:05:18,440 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at TattoAPI.Repository.Project.TattoMaster_Data.<>c.<Get_TattoMasterDetailsDTO>b__13_0(DataRow item) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\TattoMaster_Data.cs:line 154
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TattoAPI.Repository.Project.TattoMaster_Data.Get_TattoMasterDetailsDTO(TattoMaster_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\TattoMaster_Data.cs:line 152
+2023-04-01 13:05:18,443 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Cannot cast DBNull. Value to type 'System.Int64'. Please use a nullable type.
+2023-04-01 13:17:42,175 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at TattoAPI.Repository.Project.Tatto_CLient_Master_Data.<>c.<Get_TattoClientMasterDetailsDTO>b__12_0(DataRow item) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_CLient_Master_Data.cs:line 117
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TattoAPI.Repository.Project.Tatto_CLient_Master_Data.Get_TattoClientMasterDetailsDTO(Tatto_Client_Master_DTO model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Project\Tatto_CLient_Master_Data.cs:line 115
+2023-04-01 13:17:42,200 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Cannot cast DBNull. Value to type 'System.Int64'. Please use a nullable type.
+2023-04-01 13:20:51,070 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] -    at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at TattoAPI.Repository.Project.Tatto_Image_Data.<>c.<Get_TattoImageDetailsDTO>b__12_0(DataRow item)
+   at System.Linq.Enumerable.SelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at TattoAPI.Repository.Project.Tatto_Image_Data.Get_TattoImageDetailsDTO(Tatto_Image_DTO model)
+2023-04-01 13:20:51,101 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [0] - Cannot cast DBNull. Value to type 'System.Decimal'. Please use a nullable type.
+2023-04-01 15:56:01,977 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at TattoAPI.Repository.Avigma.UserMaster_Data.Get_UserMasterLogin(RootUserLogin_input model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Avigma\UserMaster_Data.cs:line 440
+2023-04-01 15:56:02,059 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function 'Get_UserMasterLogin' expects parameter '@User_Address', which was not supplied.
+2023-04-01 15:57:00,565 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at TattoAPI.Repository.Avigma.UserMaster_Data.Get_UserMasterLogin(RootUserLogin_input model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Avigma\UserMaster_Data.cs:line 440
+2023-04-01 15:57:00,585 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function 'Get_UserMasterLogin' expects parameter '@User_Address', which was not supplied.
+2023-04-01 16:01:44,411 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at TattoAPI.Repository.Avigma.UserMaster_Data.Get_UserMasterLogin(RootUserLogin_input model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Avigma\UserMaster_Data.cs:line 440
+2023-04-01 16:01:44,441 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function 'Get_UserMasterLogin' expects parameter '@User_Address', which was not supplied.
+2023-04-01 16:07:17,337 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] -    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at TattoAPI.Repository.Avigma.UserMaster_Data.Get_UserMasterLogin(RootUserLogin_input model) in D:\Ajeet\Avigma\Project\FashionAPICore\Repository-Impl\TattoAPI\Repository\Avigma\UserMaster_Data.cs:line 440
+2023-04-01 16:07:17,351 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Procedure or function 'Get_UserMasterLogin' expects parameter '@User_Address', which was not supplied.
+2023-04-03 10:42:04,773 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Log Message from Error Method
+2023-04-03 11:13:22,989 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Log Message from Error Method
+2023-04-03 11:25:12,008 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Log Message from Error Method
+2023-04-03 11:33:53,652 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Log Message from Error Method
+2023-04-03 11:38:06,825 [.NET ThreadPool Worker]  INFO ErrorLog.logErrorMessage [34] - Log Message from Error Method

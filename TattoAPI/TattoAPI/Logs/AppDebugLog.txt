@@ -1,0 +1,9 @@
+2023-04-03 11:52:49,273 [.NET ThreadPool Worker]  INFO DebugLog.logDebugMessage [19] - Log Message from Debug Method
+2023-05-09 17:04:53,852 [.NET ThreadPool Worker]  INFO DebugLog.logDebugMessage [0] - Android--------->
+2023-07-19 15:05:27,853 [.NET ThreadPool Worker]  INFO DebugLog.logDebugMessage [19] - QR_Image_Path\44d86766-95d7-44e8-9430-72756c4203fd.Jpeg
+2023-07-19 15:26:43,684 [.NET ThreadPool Worker]  INFO DebugLog.logDebugMessage [0] - QR_Image_Path\c9a1c999-cf0d-4250-9945-f19ce4be3056.Jpeg
+2023-07-19 15:54:12,038 [.NET ThreadPool Worker]  INFO DebugLog.logDebugMessage [19] - QR_Image_Path\5fa4581c-84f7-4330-9a5a-1ac2550b2155.Jpeg
+2023-07-19 15:56:20,967 [.NET ThreadPool Worker]  INFO DebugLog.logDebugMessage [19] - QR_Image_Path\8910efb1-59de-42f9-8e59-ec647b02b550.Jpeg
+2023-07-19 16:00:39,012 [.NET ThreadPool Worker]  INFO DebugLog.logDebugMessage [19] - QR_Image_Path\e4aa4be5-4745-4368-95a6-ee3c79fbfe56.Jpeg
+2023-07-20 16:14:12,053 [.NET ThreadPool Worker]  INFO DebugLog.logDebugMessage [19] - UserImagePath\ff2878a2-6ebc-4aaf-be11-20943ce4e88f.png
+2023-07-20 16:26:51,519 [.NET ThreadPool Worker]  INFO DebugLog.logDebugMessage [0] - UserImagePath\2572c02a-5e19-4993-a379-c850e0231e6a.png
